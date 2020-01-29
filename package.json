@@ -1,0 +1,35 @@
+{
+  "name": "frontend-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "formik": "^1.0.1",
+    "grid-styled": "^5.0.2",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.1",
+    "react-charts": "^1.0.10",
+    "react-code-input": "^3.5.0",
+    "react-dom": "^16.12.0",
+    "react-dropzone": "^4.3.0",
+    "react-loadable": "^5.4.0",
+    "react-native-custom-checkbox": "^1.5.2",
+    "react-phone-input-auto-format": "^0.1.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^1.1.5",
+    "react-select": "^2.0.0",
+    "react-toolbox": "^2.0.0-beta.13",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^3.3.3",
+    "video-react": "^0.13.0",
+    "yup": "^0.26.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

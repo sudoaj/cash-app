@@ -1,0 +1,165 @@
+.newsFeedPlay.video-react.video-react-video, .newsFeedPlay.video-react .video-react-poster {
+    border-radius: 4px;
+    outline: none;
+}
+.newsFeedPlay.video-react.video-react-fluid,
+.newsFeedPlay.video-react.video-react-16-9,
+.newsFeedPlay.video-react.video-react-4-3 {
+    border-radius: 4px;
+    outline: none;
+}
+.newsFeedPlay.video-react .video-react-video {
+    border-radius: 4px;
+    outline: none;
+}
+.newsFeedPlay.video-react-has-started .video-react-control-bar {
+    border-radius: 4px;
+}
+.newsFeedPlay.video-react.video-react-fluid,
+.newsFeedPlay.video-react.video-react-16-9,
+.newsFeedPlay.video-react.video-react-4-3 {
+    padding-top: 168px !important;
+}
+
+.react-select__control {
+    border: 0.5px solid #D0D3E2 !important;
+    border-color: #D0D3E2 !important;
+    border-radius: 2px !important;
+    background-color: #FFFFFF !important;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none !important;
+    color: rgba(0, 51, 102, 0.7);
+    cursor: pointer !important;
+    box-shadow: none !important;
+    min-height: 47px !important;
+}
+.react-select__single-value {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: rgba(0, 51, 102, 0.7) !important;
+}
+.react-select__menu {
+    background-color: #fff !important;
+    border-radius: 4px !important;
+    box-shadow: 2px 16px 22px 7px rgba(83,83,83,0.2) !important;
+    border: none !important;
+}
+.react-select__option:hover {
+    background-color: rgba(0,51,102,0.1) !important;
+}
+.react-select__option {
+    background-color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: rgba(0, 51, 102, 0.7) !important;
+}
+.react-select__indicator-separator {
+    display: none;
+}
+.select__control {
+    border: none !important;
+    background-color: #FFFFFF !important;
+    outline: none !important;
+    cursor: pointer !important;
+    box-shadow: none !important;
+    width: 99%;
+}
+.select__multi-value {
+    background: linear-gradient(177.92deg, #9C89F2 0%, #69C3F6 100%);
+    box-shadow: 0 0 10px 2px rgba(83,83,83,0.1);
+    border-radius: 4px !important;
+    transition: 0.3s;
+    height: 30px;
+    color: #FFFFFF;
+    margin: 0px 2px 0px 0px !important;
+}
+.select__multi-value__label {
+    font-size: 12px !important;
+    font-weight: 500;
+    letter-spacing: 0.63px;
+    color: #FFFFFF !important;
+    align-items: center;
+    display: flex;
+}
+.select__multi-value__remove {
+    background: none !important;
+    color: #fff !important;
+}
+.select__value-container.select__value-container--is-multi.select__value-container--has-value {
+    padding: 0px;
+}
+
+.course-type__control {
+    border: 1px solid rgba(0,51,102,0.15) !important;
+    border-color: rgba(0,51,102,0.15) !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+    background-color: #FFFFFF !important;
+    outline: none !important;
+    min-height: 46px !important;
+}
+
+.course-type__single-value {
+    font-size: 12px;
+    font-weight: 600;
+    /*font-family: Muli;*/
+    color: #003366 !important;
+    letter-spacing: 1px;
+    opacity: 0.9;
+}
+.course-type__indicator-separator {
+    display: none;
+}
+.course-type__menu {
+    background-color: #fff !important;
+    border-radius: 4px !important;
+    box-shadow: 2px 16px 22px 7px rgba(83,83,83,0.2) !important;
+    border: none !important;
+}
+.course-type__option:hover {
+    background-color: rgba(0,51,102,0.1) !important;
+}
+.course-type__option {
+    background-color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: rgba(0, 51, 102, 0.7) !important;
+}
+.newAccountSelect__control {
+    border: 1px solid rgba(0,51,102,0.28) !important;
+    min-height: 30px !important;
+    height: 30px !important;
+}
+
+.newAccountSelect__control--is-focused {
+    min-height: 30px !important;
+    height: 30px !important;
+}
+.newAccountSelect__single-value {
+    opacity: 0.5 !important;
+    color: #003366 !important;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.newAccountSelect__placeholder {
+    opacity: 0.5 !important;
+    color: #003366 !important;
+    font-size: 12px !important;
+    font-weight: 600;
+}
+.newAccountSelect__indicator-separator {
+    display: none;
+}
+.newAccountSelect__menu-list {
+    z-index: 10000;
+}
+.newAccountSelect__option {
+    background-color: #FFFFFF !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: rgba(0, 51, 102, 0.7) !important;
+}
+.newAccountSelect__option:hover {
+    background-color: rgba(0,51,102,0.1) !important;
+}
