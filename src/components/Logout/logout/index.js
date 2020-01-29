@@ -77,17 +77,10 @@ class LoginComponent extends React.Component {
 
                 <LoginContainer>
                     <LoginInputContainer>
-                        <LoginText>Log<span style={spanStyle}>i</span>n</LoginText> 
-                        <br></br>
-                    <PhoneInput 
-                    type='tel'
-                    style={{outline: 'none'}} 
-                    placeholder="(404) 123-7890" 
-                    onKeyDown={this._handleKeyDown} 
-                    value={this.state.value}  
-                    maxLength="11"
-                    inputComponent={InputNumberLogin}
-                    ></PhoneInput>
+                        <LoginText>Logged <span style={spanStyle}>out</span></LoginText> 
+                        <LoginText>BYE</LoginText> 
+
+                  
                     </LoginInputContainer>
                 </LoginContainer>
 

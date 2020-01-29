@@ -7,9 +7,14 @@ import {ThemeProvider} from 'styled-components'
 
 import {theme} from "../static/colors";
 
-import HomeView from '../views/home'
+
 import CashHome from '../views/cash-home'
 import LoginView from '../views/cash-login'
+import LogoutView from '../views/cash-logout'
+
+
+
+
 import NotFound from '../components/Core/NotFound'
 import CollegeDashboardView from '../views/dashboard/college-dashboard/Loadable'
 
@@ -24,9 +29,14 @@ export default store => {
     <ThemeProvider theme={theme}>
       <Router history={history}>
         <Switch>
-          <Route exact path="/" component={HomeView}/>
-          <Route exact path="/cash-home" component={CashHome}/>
+          <Route exact path="/" component={CashHome}/>
+          <Route exact path="/home" component={CashHome}/>
           <Route exact path="/login" component={LoginView}/>
+          <Route exact path="/register" component={LoginView}/>
+          <Route exact path="/logout" component={LogoutView}/>
+
+          
+
           <Route exact path="/college/dashboard" component={CollegeDashboardView}/>
           <Route path="*" component={NotFound}/>
 

@@ -197,6 +197,13 @@ const AddNewButton = styled.button `
     font-size: 16px;
     border-radius: 10px;
 `
+
+const loginLinkStyle = {
+    color: 'white',
+    textDecoration: 'none',
+
+
+}
 class CollegeDashboardComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -284,7 +291,7 @@ class CollegeDashboardComponent extends React.Component {
                                 <List active={this.state.activeTab === 4}
                                       onClick={() => this.changeTab(4)}>
                                     <i className="fa fa-sign-out-alt fa-lg" style={iconMargin}></i>
-                                    <ListSpan>Sign out</ListSpan>
+                                    <ListSpan><Link to="/logout" style={loginLinkStyle}>Sign out</Link></ListSpan>
                                 </List>
                             </ListWrap>
                            <AddNewButton>New Transaction</AddNewButton>
