@@ -16,7 +16,7 @@
     "react-phone-input-auto-format": "^0.1.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^5.0.1",
     "react-select": "^2.0.0",
     "react-toolbox": "^2.0.0-beta.13",
     "redux": "^4.0.0",
