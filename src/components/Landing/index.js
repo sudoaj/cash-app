@@ -94,7 +94,7 @@ class LandingPage extends React.Component {
                             <RightHeader>
                                 
                                 <Link to="/login" style={loginLinkStyle}>Login</Link>
-                                <GetStarted onClick={this.getStarted}>GET STARTED</GetStarted>
+                                <GetStarted onClick={this.getStarted}>GET STARTED NOW</GetStarted>
                                 {/*<ClearBoth/>*/}
                             </RightHeader>
                             <ClearBoth/>
